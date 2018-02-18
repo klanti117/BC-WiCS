@@ -7,15 +7,76 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+<!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+    <!-- local css -->
+    <link rel="stylesheet" href="style.css">
     <title>BC WiCS</title>
       <link rel="icon" type="img/jpg" href="img/icon2.png">
       <!-- ^ for the icon on the title -->
   </head>
   <body>
  <!-- section navbar -->
-  
+ <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-full p-5 fixed-top">
+   <!--                           ^ when this is lg, the icon comes up. p-5 changes the width -->
+  <a class="navbar-brand" href="#">BC-WiCS
+    <!-- <img src="" alt="">  i need to make a logo-->
+  </a>
+
+<!--  part is responsible for the hamburger-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!--  part is responsible for the hamburger-->
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item  active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="menubar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ABOUT
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <!--                     ^ MAKES THE BACKGROUND BLACK-->
+          <a class="dropdown-item" href="#">MISSION</a>
+          <a class="dropdown-item" href="#">WHO ARE WE</a>
+          <a class="dropdown-item" href="#">HISTORY</a>
+        </div>
+      </li>
+      <li class="nav-item  active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="menubar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PROGRAMS
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <!--                     ^ MAKES THE BACKGROUND BLACK-->
+          <a class="dropdown-item" href="#">LOREM</a>
+          <a class="dropdown-item" href="#">EPSUM</a>
+          <a class="dropdown-item" href="#">PLACEAT</a>
+        </div>
+      </li>
+      <li class="nav-item  active dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="menubar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MEMBERS
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <!--                     ^ MAKES THE BACKGROUND BLACK-->
+          <a class="dropdown-item" href="#">RESOURCES</a>
+          <a class="dropdown-item" href="#">ALUMNI</a>
+        </div>
+      </li>
+
+    </ul>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">CONNECT</button>
+  </div>
 </nav>
+ <!-- end of section navbar -->
+
+
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
