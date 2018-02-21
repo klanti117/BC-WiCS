@@ -31,3 +31,22 @@ body{
 .height{
   height: 50%;
 }
+/* contact section */
+#contact{
+  padding: 40px;
+  background-color: whitesmoke;
+}
+#contact .form-control{
+  border-radius: 10px!important;
+  font-size: 20px;
+}
+#contact .button{
+  background-color: #353531;
+  font-size: 30px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+#contact button:hover{
+  background-color: #CED0CE;
+}
