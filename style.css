@@ -50,3 +50,37 @@ body{
 #contact button:hover{
   background-color: #CED0CE;
 }
+/* footer section */
+#footer{
+  /* padding: 40px; */
+  color: whitesmoke;
+  background-color: #353531;
+}
+#footer.icon-container{
+  
+}
+#footer .footer-icons{
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:#404040;
+  height: 80px;
+  margin: 10px;
+}
+#footer .footer-icons a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+#footer .footer-icons a:hover{
+  color: #f15025;
+}
+#footer .copyright{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: black;
+  height: 200px;
+  font-size: 20px;
+}
+
+
+/* end of footer */
